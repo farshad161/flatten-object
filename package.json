@@ -1,0 +1,29 @@
+{
+  "name": "flattener",
+  "version": "0.0.1",
+  "main": "/dist/index.js",
+  "module": "/src/index.mjs",
+  "types": "/src/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "flatten",
+    "object",
+    "mongodb",
+    "restful",
+    "api",
+    "typescript"
+  ],
+  "author": "farshad tajedin",
+  "license": "MIT",
+  "description": "Flatten an object into a single level of keys.",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.13",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  }
+}
